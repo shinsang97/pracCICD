@@ -10,9 +10,9 @@ name: Spring Boot & Gradle CI/CD
 #잘되나요?
 on:
   push:
-    branches: -prac
+    branches: [prac]
   pull_request:
-    branches: -prac
+    branches: [prac]
 
 jobs:
   build:
