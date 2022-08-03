@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    credentials:
+      accessKey: ${Image_access_key}
+      secretKey: ${Image_secret_key}
+    s3:
+      bucket: s3-unanimous
+    region:
+      static: ap-northeast-2
+
+    stack:
+      auto: false
+
+
